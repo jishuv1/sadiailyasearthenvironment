@@ -1,0 +1,186 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+body {
+  background-size: cover;
+  font-family: sans-serif;
+}
+.menu-bar {
+  background: white;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-block: 0%;
+  margin-inline: 24px;
+  font-size: 14px;
+  font-weight: bolder;
+  border-bottom: 5px solid orange;
+}
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: black;
+  border-radius: 3px;
+}
+.menu-bar ul li {
+  width: 120px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+.menu-bar ul li a {
+  text-decoration: none;
+  color: black;
+}
+.menu-bar ul li:hover {
+  background: none;
+  border-radius: 3px;
+}
+.sub-menu-1 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: white;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: inline-block;
+  margin: 2px;
+  border-radius: 5px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li {
+  width: auto;
+  padding: 10px;
+  border-bottom: 1px #fff;
+  background: white;
+  border-radius: 5px;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+  color: blue;
+}
+.column {
+  float: left;
+  width: 16.5%;
+}
+#right-side-images {
+  float: right;
+}
+#sadia {
+  text-align: center;
+  float: left;
+  margin-left: 10px;
+}
+.photoDecs {
+  font-size: 20px;
+  box-sizing: border-box;
+  font-weight: bolder;
+  font-display: flex;
+  padding: 5px 5px 5px 0px;
+  background-color: orange;
+  margin-top: 5px;
+  text-align: center;
+}
+.user-details {
+  margin: 2px auto;
+  display: inline-flexbox;
+  left: 2em;
+  font-size: 16px;
+  padding: 20px;
+  text-align: justify;
+}
+.profile {
+  font-size: 28px;
+  border-bottom: none;
+  padding: 8px;
+  text-decoration: underline;
+}
+.icon1 {
+  display: inline-flex;
+  margin-right: 5px;
+  border-radius: 5px;
+  border-color: grey;
+  border: 1px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.button1 {
+  background-color: orange;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  align-self: center;
+}
+.button2 {
+  margin-right: 5px;
+  border-radius: 5px;
+  padding: 0px;
+}
+.button3 {
+  border-radius: 5px;
+}
+.profileDesc {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  justify-content: center;
+  font-size: 19px;
+  padding: 20px;
+  text-align: justify;
+}
+#lab {
+  margin-left: 40px !important;
+}
+.mc {
+  text-align: left;
+  font-size: 19px;
+  left: 25%;
+  display: block;
+  margin-bottom: 5px;
+}
+.row {
+  margin-left: 5px;
+  border-top: 1px solid orange;
+  border-spacing: 30px;
+  padding-bottom: 128px;
+}
+#button4 {
+  align-content: center;
+}
+.buttoncls {
+  text-align: center;
+  width: 100%;
+  margin: 5%;
+  justify-content: center;
+  align-items: center;
+}
+.profile {
+  float: left;
+  margin-left: 10px;
+  font-size: 20pxpx;
+  text-decoration: underline;
+}
+.row {
+  margin-inline: 24px;
+}
+.tb {
+  border-bottom: 1px solid lightgray;
+}
+.column1 {
+  border-bottom: 3px solid orange;
+}
